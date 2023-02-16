@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.NavBar {
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: #5e7381;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+}
+
+.formBody {
+  max-width: 1200px;
+  height: 70vh;
+  margin: 0 auto;
+  margin-top: 24px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 50px 100px 50px 100px;
+}
+
+.labelControl {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  /* display: inline-block; Move the name in the front of the input*/
+}
+
+.FormSection {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.buttonSubmit {
+  width: 100px;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #3a4750;
+  color: #ffffff;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 28px 0px 0px 10px;
+}
+
+.buttonSubmit:hover {
+  background-color: #1e2b35;
+  color: white;
+}
+
+.formDetails {
+  padding: 10px;
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+input {
+  background-color: #eeeeee;
+  border: none;
+  height: 28px;
+  border-radius: 5px;
+  margin-top: 4px;
+}
